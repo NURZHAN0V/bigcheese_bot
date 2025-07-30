@@ -3,8 +3,8 @@ const csv = require('csv-parser');
 const axios = require('axios');
 
 // === НАСТРОЙКИ ===
-const STRAPI_URL = 'https://love.bigcheese.fun'; // Адрес твоего Strapi
-const API_TOKEN = '6e7c9406b321a13cb0d84b7556608e62c57ec6e95de53a49a034bb4831ac56367395ebf7f47c58033d62cfdf6113ea7ae026fb9b0e24ee27410ba8dcccb07d64e6548862017e687ef73dc3bd8152c5f38d72013e53ca165a96a47b59d7a9db2f622a2e82fd96abb4d3f66cf7c77070ff682bdfb8b96d97856cce4361a44d1eec';
+const STRAPI_URL = 'https://example.com'; // Адрес твоего Strapi
+const API_TOKEN = 'ваш_токен';
 const CONTENT_TYPE = 'words'; // Например: 'words', 'es-words', 'it-words' — выбери нужную
 const CSV_FILE = 'import/test.csv';
 
