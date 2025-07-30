@@ -25,7 +25,7 @@
 Откройте файл `app.js` в любом текстовом редакторе и измените:
 
 ```javascript
-const STRAPI_URL = 'https://example.com'; // Оставьте как есть
+const STRAPI_URL = 'https://love.bigcheese.fun'; // URL вашего Strapi сервера
 const API_TOKEN = 'ваш_токен_доступа'; // Вставьте ваш токен
 const CONTENT_TYPE = 'words'; // Тип слов (words, es-words, it-words)
 const CSV_FILE = 'data.csv'; // Имя вашего файла со словами
